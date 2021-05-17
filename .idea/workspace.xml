@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150bd587-30f7-4a56-b847-cdc1448f50f6" name="Default Changelist" comment="Second commit" />
+    <list default="true" id="150bd587-30f7-4a56-b847-cdc1448f50f6" name="Default Changelist" comment="Second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Utils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify if Delete Place functionality is working">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -58,8 +62,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify if Delete Place functionality is working" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/placeValidations.feature" />
+      <option name="GLUE" value="stepDefinations" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="APIFramework" />
+      <option name="NAME_FILTER" value="^Verify if Delete Place functionality is working$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Verify if Delete Place functionality is working$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify if Delete Place functionality is working" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify if Delete Place functionality is working" />
         <item itemvalue="Cucumber Java.Feature: placeValidations" />
       </list>
     </recent_temporary>
@@ -72,7 +97,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620464057406</updated>
-      <workItem from="1620464058815" duration="5360000" />
+      <workItem from="1620464058815" duration="6231000" />
+      <workItem from="1620724684173" duration="1394000" />
+      <workItem from="1620812035639" duration="684000" />
+      <workItem from="1621268559983" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1620468476536</created>
@@ -88,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620468518926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second commit">
+      <created>1620470275828</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620470275828</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +139,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
